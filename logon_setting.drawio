@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T06:26:25.427Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="tUJhxhFiL23wMyNnCNOS" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-18T06:35:02.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="j0HTdHwGavR4e0bbLmsk" version="16.2.7" type="github">
   <diagram id="SBHRR8JvAFPnM8qmIGpy" name="Page-1">
     <mxGraphModel dx="1053" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="JdAdMdoK6gOQwtqftmkM-6" value="自定义" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="JdAdMdoK6gOQwtqftmkM-2">
           <mxGeometry y="120" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="JdAdMdoK6gOQwtqftmkM-7" value="LDAP配置" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="JdAdMdoK6gOQwtqftmkM-7" value="LDAP验证配置" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="110" y="260" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JdAdMdoK6gOQwtqftmkM-8" value="认证配置" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
@@ -102,6 +102,33 @@
         </mxCell>
         <mxCell id="JdAdMdoK6gOQwtqftmkM-42" value="验证" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="500" y="638" width="82" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="JdAdMdoK6gOQwtqftmkM-43" value="自定义验证配置" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="110" y="837" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JdAdMdoK6gOQwtqftmkM-44" value="请选择" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="223" y="917" width="367" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JdAdMdoK6gOQwtqftmkM-45" value="com.sinitek.sirm.framework.um.SimpleUserChecker" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="JdAdMdoK6gOQwtqftmkM-44">
+          <mxGeometry y="30" width="367" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JdAdMdoK6gOQwtqftmkM-47" value="com.sinitek.sirm.org.customer.CustomerUserCheck" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="JdAdMdoK6gOQwtqftmkM-44">
+          <mxGeometry y="60" width="367" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JdAdMdoK6gOQwtqftmkM-48" value="。。。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="JdAdMdoK6gOQwtqftmkM-44">
+          <mxGeometry y="90" width="367" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JdAdMdoK6gOQwtqftmkM-49" value="自定义实现类：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="917" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JdAdMdoK6gOQwtqftmkM-50" value="混合验证配置" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="108" y="700" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JdAdMdoK6gOQwtqftmkM-51" value="本地验证用户：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="105" y="765" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JdAdMdoK6gOQwtqftmkM-52" value="admin,test,demo" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="215" y="760" width="220" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
